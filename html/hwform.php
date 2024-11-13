@@ -11,7 +11,6 @@ Comment: <textarea name="comment" rows="5" cols="40" ></textarea>
 </form>
 
 
-
 Wasborn <?php echo $_POST["name1"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 

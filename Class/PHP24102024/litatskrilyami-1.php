@@ -14,7 +14,7 @@ class flyWithWings extends FlyBehavior
 
     public function getFast(): string
     {
-        return $this->;
+        return $this->fast;
     }
 
     public function setFast(string $fast): void

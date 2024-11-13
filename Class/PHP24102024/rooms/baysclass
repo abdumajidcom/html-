@@ -1,0 +1,22 @@
+<?php
+namespace Class\PHP24102024;
+
+class home implements homeIterface
+{
+   public string $famliy;
+   public string $room;
+
+
+   public function __construct($famliy, $room)
+   {
+    $this->famliy=$famliy;
+    $this->room=$room;
+   }
+
+   public function display(): string 
+   {
+    return 'famliy:' . $this->$famliy . 'room:' . $this->$room;
+    
+   }
+
+}
